@@ -1,4 +1,8 @@
-﻿int number = 9137;
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+using System;
+using System.Numerics;
+
+int number = 9937;
 string numberAsString = number.ToString();
 char[] letters = numberAsString.ToArray();
 
@@ -12,6 +16,8 @@ int counter6 = 0;
 int counter7 = 0;
 int counter8 = 0;
 int counter9 = 0;
+
+Console.WriteLine ("");
 
 foreach (char letter in letters)
 {
@@ -56,3 +62,13 @@ foreach (char letter in letters)
         counter9++;
     }
 }
+Console.WriteLine("0=>" + counter0);
+Console.WriteLine("1=>" + counter1);
+Console.WriteLine("2=>" + counter2);
+Console.WriteLine("3=>" + counter3);
+Console.WriteLine("4=>" + counter4);
+Console.WriteLine("5=>" + counter5);
+Console.WriteLine("6=>" + counter6);
+Console.WriteLine("7=>" + counter7);
+Console.WriteLine("8=>" + counter8);
+Console.WriteLine("9=>" + counter9);
